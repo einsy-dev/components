@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ShopItem from './ShopItem';
+import ShopItemClass from './ShopItem';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ShopItem
+    <ShopItemClass
       brand="Tiger of Sweden"
       title='Leonard coat'
       description='Minimalistic coat in cotton-blend'
